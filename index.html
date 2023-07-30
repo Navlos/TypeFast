@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeFast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>TypeFast</h2>
+    </header>
+    <div class="container">
+
+        <p>Type the given word within <span id="seconds" >5</span> seconds</p>
+        <h3 id="current-word"></h3>
+
+        <input type="text" placeholder="Start typing ......  " id="word-input">
+
+        <p id="message"></p>
+        <div class="flex">
+            <p>Time Left : <span id="time"></span> </p>
+            <p>Score : <span id="score">0</span></p>
+        </div>
+        <div class="box">
+            <h3>Instructions</h3>
+            <p>Type each word in the given amount of time.To play again, just type the current word</p>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
